@@ -4,11 +4,11 @@ const modal = document.getElementById("burder__modal");
 const closeModalButton = document.getElementById("close__modal");
 
 const openModal = () => {
-    modal.style.display = 'block'
+    modal.style.right = 0;
 }
 
 const closeModal = () => {
-    modal.style.display = 'none'
+    modal.style.right = "-375px";
 }
 
 burgerButton.addEventListener("click", openModal);
