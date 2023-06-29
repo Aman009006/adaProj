@@ -620,7 +620,6 @@ footer {
 }
 
 .burder__modal{
-  
   background: #292929;
   width: 375px;
   height: 100vh;
@@ -628,5 +627,4 @@ footer {
   top: 0;
   right: -375px;
   transition: 0.5s;
-  /* display: none; */
 }
